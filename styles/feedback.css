@@ -1,3 +1,4 @@
+ /*Feedback Div  */
 .feed {
     background-color: var(--nav);
     width: 45%;
@@ -5,17 +6,6 @@
     padding: 2rem 5rem;
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 2px 5px lightgray;
-}
-
-input {
-    width: 100%;
-    display: grid;
-    outline: none;
-}
-
-textarea {
-    outline: none;
-    width: 100%;
 }
 
 .feed div {
@@ -27,7 +17,18 @@ textarea {
     width: 10%;
     filter: brightness(0) invert(1);
 }
+/* Form Fields */
+input {
+    width: 100%;
+    display: grid;
+    outline: none;
+}
 
+textarea {
+    outline: none;
+    width: 100%;
+}
+/* Responsive Design */
 @media screen and (max-width: 950px) {
     .feed {
         width: 60%;

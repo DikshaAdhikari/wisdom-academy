@@ -1,18 +1,23 @@
+/* Banner Image */
 .banner {
     display: flex;
     justify-content: center;
     margin-top: 5rem;
 }
-@media screen and (max-width: 768px){
-    .banner{
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .banner {
         margin-top: 8rem;
     }
 }
-@media screen and (max-width: 550px){
-    .banner{
+
+@media screen and (max-width: 550px) {
+    .banner {
         margin-top: 5rem;
     }
-    .banner img{
+
+    .banner img {
         width: 100%;
     }
 }
