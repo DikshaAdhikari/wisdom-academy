@@ -4,14 +4,12 @@ ham.addEventListener('click', () => {
     ham.classList.add("hidden");
     x.classList.remove("hidden");
     document.querySelector(".mobile-nav").classList.remove('hidden');
-    console.log('a');
 });
 
 x.addEventListener('click', () => {
     x.classList.add("hidden");
     ham.classList.remove("hidden");
     document.querySelector(".mobile-nav").classList.add('hidden');
-    console.log('a');
 });
 
 var submit = document.getElementById("send");
@@ -25,12 +23,11 @@ submit.addEventListener("click", () => {
 
     if (emailVal.length < 1 && phone.length < 10 && ques.length < 1 && name.length < 1) {
         alert('Fill all the enteries before submition');
-    } else if(atPosition < 1 || (dotPosition - atPosition < 2)) {
+    } else if (atPosition < 1 || (dotPosition - atPosition < 2)) {
         alert("Please provide a valid email address");
-    }else if( isNaN(phone)){
+    } else if (isNaN(phone)) {
         alert("Please provide a phone number");
-    }
-    else{
+    } else {
         alert("Your Application Is Submitted");
     }
 });

@@ -35,19 +35,27 @@ body {
 }
 .mobile-nav{
     background-color: var(--nav);
-    width: 50%;
+    width: 80%;
     position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
     z-index: 2;
     padding-top: 5rem;
+    animation: animate 1s ease-out;
 }
 .mobile-nav li{
     padding: 5px;
     list-style: none;
 }
-
+@keyframes animate{
+    from{
+        width: 0;
+    }
+    to{
+        width: 80%;
+    }
+}
 .scale {
     transition: 2s linear;
 }
@@ -250,8 +258,5 @@ body {
 @media screen and (max-width: 550px) {
     .heading {
         margin-top: 5rem;
-    }
-    .mobile-nav{
-        width: 80%;
     }
 }
