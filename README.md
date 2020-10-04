@@ -1,5 +1,6 @@
 # wisdom-academy
 ![](video.gif)
+
 This is an interface of school webite designed for the purpose of learning. It shows different facilites a school provides. It has various sections providing about, services, staff, feedback, contact, staff and calendar. It provides Form Validation using JavaScript.
 The site is made responsive such that it runs in all devices.
 
