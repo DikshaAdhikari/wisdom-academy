@@ -1,0 +1,51 @@
+.feed {
+    background-color: var(--nav);
+    width: 45%;
+    margin: 2rem auto;
+    padding: 2rem 5rem;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 2px 5px lightgray;
+}
+
+input {
+    width: 100%;
+    display: grid;
+    outline: none;
+}
+
+textarea {
+    outline: none;
+    width: 100%;
+}
+
+.feed div {
+    display: flex;
+    justify-content: center;
+}
+
+.feed img {
+    width: 10%;
+    filter: brightness(0) invert(1);
+}
+
+@media screen and (max-width: 950px) {
+    .feed {
+        width: 60%;
+    }
+
+    .feed img {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .feed {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .feed {
+        padding: 2rem;
+    }
+}
