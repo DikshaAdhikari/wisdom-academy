@@ -5,7 +5,8 @@ The site is made responsive such that it runs in all devices.
 
 **Technologies Used are**: HTML5, CSS3, Bootstrap5 and JavaSctript.
 
-**References of the code used**: 
+**References of the code used**:
+
 *BOOTSTRAP*: https://v5.getbootstrap.com/
 
 *FontAwesome*: https://fontawesome.com/
