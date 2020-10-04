@@ -7,8 +7,10 @@ The site is made responsive such that it runs in all devices.
 
 **References of the code used**: 
 *BOOTSTRAP*: https://v5.getbootstrap.com/
+
 *FontAwesome*: https://fontawesome.com/
+
 *GoogleFonts*: https://fonts.google.com/
 
 ![](design-preview/a.png)
-![](design-preview/b.png)
+
