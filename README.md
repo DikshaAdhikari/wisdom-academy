@@ -5,7 +5,7 @@ This is an interface of school webite designed for the purpose of learning. It s
 The site is made responsive such that it runs in all devices.
 
 
-**Technologies Used are**: HTML5, CSS3, Bootstrap5 and JavaSctript.
+**Technologies Used are**: HTML5, CSS3, Bootstrap5 and JavaScript.
 
 **References of the code used**:
 
